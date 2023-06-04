@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* a:link. A normal, unvisited link */
+/* a:visited. A link the user has visited */
+/* a:hover. A link when the user hovers its pointer over it */
+/* a:active. A link the moment it is clicked */
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000EE;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+/* Top navigation bar */
+.top_nav_bar {
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+
+a.nav_bar_link {
+    padding: 0.5em;
+    border: 2px solid black;
+}
+
+a:hover.nav_bar_link {
+    background-color: #e6e6e6;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 2em;
+}
+
+a.footer_link {
+    padding: 0.5em;
+    border: 2px solid black;
+}
+
+a:hover.footer_link {
+    background-color: #e6e6e6;
+}
