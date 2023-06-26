@@ -44,6 +44,10 @@ p {
     text-align: center;
 }
 
+.about-me-paragraph p {
+    text-align: left;
+}
+
 /* Footer */
 
 footer {
