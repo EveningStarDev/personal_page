@@ -8,6 +8,16 @@
 /* a:hover. A link when the user hovers its pointer over it */
 /* a:active. A link the moment it is clicked */
 
+nav {
+    background: #969696;
+    height: 80px;
+}
+
+nav, ul, .logo {    
+    margin: 0;
+    padding: 0;
+}
+
 a:link, a:visited {
     text-decoration: none;
 }
@@ -18,13 +28,6 @@ a:visited {
 
 a:hover, a:active {
     text-decoration: underline;
-}
-
-/* Top navigation bar on all pages except Home*/
-.top_nav_bar {
-    text-align: center;
-    padding: 1em;
-    font-size: 20px;
 }
 
 a.nav_bar_link {
