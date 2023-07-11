@@ -45,13 +45,39 @@ nav ul li {
 nav ul li a {
     color: white;
     font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+#check_button {
+    float: right;
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
 }
 
 a.active, a:hover {
     background: #000000;
     transition: 0.5s;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+            font-size: 16px;
+        }
 }
 
 h1, h2 {
